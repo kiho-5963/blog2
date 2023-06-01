@@ -1,0 +1,466 @@
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+}
+
+.title {
+  height: 40px;
+  font-size: 32px;
+  margin: 30px 0 20px 60px;
+  color: rgb(48, 46, 46);
+}
+
+.menu {
+  height: 45px;
+  background-color: rgb(48, 46, 46);
+}
+
+.menu ul {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  padding-top: 10px;
+}
+.menu a {
+  padding: 0 0 0 60px;
+}
+
+.wrapper {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.place {
+  padding-top: 120px;
+}
+
+.place li {
+  width: 32%;
+}
+
+.place img {
+  padding-top: 50px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.place ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.title1 {
+  /* width: 370px;
+  height: 70px; */
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.read1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.read1 a {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(37, 34, 34);
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  margin-bottom: 70px;
+}
+main li {
+  margin-bottom: 80px;
+}
+.container ul {
+  /* width: 720px; */
+}
+
+.container .title2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container .date {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.container img {
+  width: 720px;
+}
+
+.container .text {
+  width: 630px;
+  font-size: 14px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.read2 {
+  margin-top: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.read2 a {
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgb(37, 34, 34);
+}
+
+aside {
+  display: flex;
+  flex-flow: column;
+  width: 350px;
+  margin: 0 0 0 120px;
+}
+
+.profile {
+  text-align: center;
+  height: 320px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile .name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.myprofile {
+  font-size: 12px;
+  text-align: start;
+}
+
+.ranking {
+  width: 350px;
+  justify-content: space-between;
+}
+
+.ranking img {
+  width: 350px;
+}
+
+.ranking h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ranking li {
+  margin-top: 40px;
+}
+
+.ranking .title3 {
+  font-size: 14px;
+  width: 350px;
+}
+
+.archive {
+  display: block;
+  width: 350px;
+  margin-top: 70px;
+}
+
+.archive h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(49, 46, 46);
+}
+
+.archive ul li {
+  width: 350px;
+  border-bottom: 1px solid rgb(49, 46, 46);
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.archive ul a {
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.footer {
+  width: 1440px;
+  background-color: rgba(235, 230, 230, 0.397);
+}
+
+.footer-wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 120px;
+  padding: 50px 15px;
+}
+
+.about {
+  width: 370px;
+}
+.about h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.about p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.about a {
+  font-size: 14px;
+}
+.about li {
+  margin-bottom: 6px;
+  padding-left: 5px;
+}
+
+.footer .menu1 {
+  width: 370px;
+  margin-left: 40px;
+}
+
+.menu1 h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.menu1 ul {
+  width: 350px;
+  display: block;
+  border-top: 1px solid rgb(66, 64, 64);
+  padding-top: 5px;
+}
+
+.menu1 a {
+  font-size: 12px;
+  color: rgb(66, 64, 64);
+  padding: 0 0 0 10px;
+}
+
+.menu1 li {
+  width: 350px;
+  border-bottom: 1px solid rgb(66, 64, 64);
+  margin: 13px 0;
+  padding-bottom: 14px;
+}
+
+.twitter {
+  width: 370px;
+  margin-left: 40px;
+}
+
+.twitter h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.footer .copyright {
+  display: block;
+  justify-content: center;
+  font-size: 10px;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.about-ul {
+  padding-left: 8px;
+}
+
+.about-ul .about-arrow {
+  position: relative;
+}
+
+.about-ul  .about-arrow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 8px;
+  border-color: transparent transparent transparent #333;
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  margin-top: -6px;
+}
+
+@media screen and (max-width:767px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .header .title {
+  margin-left: 30px;
+  font-size: 28px;
+
+  }
+
+  .menu {
+    overflow-x: scroll;
+  }
+  .menu a {
+    font-size: 16px;
+  }
+  .place {
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  .place ul{
+    flex-direction: column;
+    /* padding-left: 27px; */
+    padding: 0 16px;
+  }
+
+  
+    
+
+
+  .place li {
+    width: 100%;
+    margin-bottom: 20px;
+  
+  }
+  
+  .container .text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-contents {
+    width: 100%;
+  }
+
+  .container ul {
+    width: 100%;
+  }
+
+  .blog-contents li{
+    padding: 0 16px;
+  }
+
+  .blog-contents img {
+    width: 100%;
+  }
+  .blog-contents .text {
+    padding: 0 32px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+
+  .aside {
+    width: 100%;
+    padding: 0;
+  }
+  .profile .myprofile {
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .ranking {
+    width: 100%;
+  }
+  .ranking img {
+    width: 100%;
+  }
+  .ranking .title3 {
+    width: 100%;
+  }
+  .ranking li {
+    padding: 0 16px;
+  }
+
+  .archive {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .archive ul li {
+    width: 100%;
+    padding: 18px 16px;
+    margin: 0;
+  }
+
+
+
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .about {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about p {
+    line-height: 20px;
+  }
+
+  .footer .menu1 {
+    width: 100%;
+    padding: 0 ;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .menu1 li{
+    width: 100%;
+  }
+
+  .menu1 ul {
+    width: 100%;
+  }
+
+.twitter {
+  width: 100%;
+  margin: 0 0 120px 0;
+
+
+}
+
+.twitter h5 {
+  font-size: 16px;
+  font-weight:bolder;
+}
+
+.footer .copyright {
+  font-size: 12px;
+}
